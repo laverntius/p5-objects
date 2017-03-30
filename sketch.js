@@ -19,7 +19,6 @@ function Pacman(){
     this.rotation = 0;
     this.display = function(){
         fill(255,255,0)
-        ellipse(this.x, this.y, 40, 40)
         arc(this.x, this.y, 40, 40, radians(this.radB + this.rotation), radians(this.radT + this.rotation), PIE);
     };
 
